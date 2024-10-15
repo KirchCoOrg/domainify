@@ -1,0 +1,12 @@
+name: "Domainify Value"
+description: "Sanitizes a given string value by converting to lowercase, removing unwanted characters, and formatting it for usage in a domain."
+inputs:
+  value:
+    description: "Raw value to sanitize"
+    required: true
+outputs:
+  value:
+    description: "The domainified value"
+runs:
+  using: "node20"
+  main: "index.js"
