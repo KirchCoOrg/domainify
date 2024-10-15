@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "author": "Markus Kirch for Kirch & Co",
   "homepage": "https://kirch-co.de",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "ncc build index.js --license licenses.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "license": "ISC",
   "dependencies": {
     "@actions/core": "^1.11.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.2"
   }
 }
