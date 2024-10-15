@@ -1,4 +1,4 @@
-# Domainify Action
+# GitHub Action: Domainify String
 
 This action will sanitize an input string to make it a valid domain or subdomain name.
 
